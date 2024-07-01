@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100, "YTLC" 500;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+.cabecalho {
+    background-color: #fff;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    border-bottom: 4px solid #CF0D2A;
+}
+
+a{
+    margin-left: auto;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+a:hover{
+    color: red;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    padding: 50px 50px;
+    height: 100%;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main {
+    flex: 1;
+    background-image: url('img/fundoprincipal.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.principal1 {
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    perspective: 10000px;
+}
+
+.principal2 {
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    perspective: 10000px;
+}
+
+.principal3 {
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    perspective: 10000px;
+}
+
+.principal4 {
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    perspective: 10000px;
+}
+
+.principal5 {
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    perspective: 10000px;
+}
+
+.principal6 {
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    perspective: 10000px;
+}
+
+.principal7 {
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    perspective: 10000px;
+}
+
+.principal8 {
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    perspective: 10000px;
+}
+
+.principal9 {
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    perspective: 10000px;
+}
+
+
+.card1 {
+    padding-top: 100px;
+    transform-style: preserve-3d;
+    background-color: rgba(244, 121, 50, 0.93);
+    background-position: center center;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.card1:hover {
+    background-position: 80% 20%;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+}
+
+.card2 {
+    padding-top: 100px;
+    transform-style: preserve-3d;
+    background-color: rgba(121, 167, 92, 0.93);
+    background-position: center center;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.card2:hover {
+    background-position: 80% 20%;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+}
+
+.card3 {
+    padding-top: 100px;
+    transform-style: preserve-3d;
+    background-color: rgba(144, 195, 209, 0.93);
+    background-position: center center;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.card3:hover {
+    background-position: 80% 20%;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+}
+
+.card4 {
+    padding-top: 100px;
+    transform-style: preserve-3d;
+    background-color: rgba(247, 206, 74, 0.93);
+    background-position: center center;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.card4:hover {
+    background-position: 80% 20%;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+}
+
+.card5 {
+    padding-top: 100px;
+    transform-style: preserve-3d;
+    background-color: rgba(208, 226, 170, 0.93);
+    background-position: center center;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.card5:hover {
+    background-position: 80% 20%;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+}
+
+.card6 {
+    padding-top: 100px;
+    transform-style: preserve-3d;
+    background-color: rgba(94, 195, 234, 0.93);
+    background-position: center center;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.card6:hover {
+    background-position: 80% 20%;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+}
+
+.card7 {
+    padding-top: 100px;
+    transform-style: preserve-3d;
+    background-color: rgba(233, 143, 94, 0.93);
+    background-position: center center;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.card7:hover {
+    background-position: 80% 20%;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+}
+
+.card8 {
+    padding-top: 100px;
+    transform-style: preserve-3d;
+    background-color: rgba(103, 193, 205, 0.93);
+    background-position: center center;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.card8:hover {
+    background-position: 80% 20%;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+}
+
+.card9 {
+    padding-top: 100px;
+    transform-style: preserve-3d;
+    background-color: rgba(70, 96, 115, 0.93);
+    background-position: center center;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.card9:hover {
+    background-position: 80% 20%;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+}
+
+.conteudo-box {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: rgba(0, 115, 255, 0.925) 0px 20px 50px -25px;
+    transition: all 0.5s ease-in-out;
+    padding: 50px 25px 25px 25px;
+    transform-style: preserve-3d;
+}
+
+.card-titulo {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 900;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+}
+
+.card-titulo:hover {
+    transform: translate3d(0px, 0px, 50px);
+}
+
+.conteudo-card {
+    padding-top: 15px;
+    font-size: 12px;
+    color: #b9b9b9;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+}
+
+.conteudo-card:hover {
+    transform: translate3d(0px, 0px, 50px);
+}
+
+.veja-mais {
+    display: block;
+    font-size: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #0088ff;
+    padding-top: 15px;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+}
+
+.veja-mais:hover {
+    transform: translate3d(0px, 0px, 50px);
+}
+
+.data-box1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: #0066ff 0px 20px 60px 0px #00c8ff;
+    transform: translate3d(0px, 0px, 20px);
+    background-image: url('img/charmander.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.data-box2 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 60px;
+    width: 53px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: #0066ff 0px 20px 60px 0px #00c8ff;
+    transform: translate3d(0px, 0px, 20px);
+    background-image: url('img/bulbasaur.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.data-box3 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: #0066ff 0px 20px 60px 0px #00c8ff;
+    transform: translate3d(0px, 0px, 20px);
+    background-image: url('img/squirtle.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.data-box4 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: #0066ff 0px 20px 60px 0px #00c8ff;
+    transform: translate3d(0px, 0px, 20px);
+    background-image: url('img/cyndaquil.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.data-box5 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: #0066ff 0px 20px 60px 0px #00c8ff;
+    transform: translate3d(0px, 0px, 20px);
+    background-image: url('img/chikorita.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.data-box6 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: #0066ff 0px 20px 60px 0px #00c8ff;
+    transform: translate3d(0px, 0px, 20px);
+    background-image: url('img/froakie.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.data-box7 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: #0066ff 0px 20px 60px 0px #00c8ff;
+    transform: translate3d(0px, 0px, 20px);
+    background-image: url('img/tepig.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.data-box8 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: #0066ff 0px 20px 60px 0px #00c8ff;
+    transform: translate3d(0px, 0px, 20px);
+    background-image: url('img/totodile.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.data-box9 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: #0066ff 0px 20px 60px 0px #00c8ff;
+    transform: translate3d(0px, 0px, 20px);
+    background-image: url('img/riolu.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.tipo1 {
+    background-color: #FF5959;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.tipo2 {
+    background-color: #9BCC50;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.tipo2-2 {
+    background-color: #B97FC9;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.tipo3 {
+    background-color: #4592C4;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.tipo4 {
+    background-color: #FF5959;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.tipo5 {
+    background-color: #9BCC50;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.tipo6 {
+    background-color: #4592C4;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.tipo7 {
+    background-color: #FF5959;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.tipo8 {
+    background-color: #4592C4;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.tipo9 {
+    background-color: #D56723;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+}
